@@ -1,0 +1,4 @@
+;/*FB_PKG_DELIM*/
+
+__d("CometVideoHomePlaylistRootQuery$Parameters",[],(function(a,b,c,d,e,f){"use strict";a={kind:"PreloadableConcreteRequest",params:{id:"7709683802402786",metadata:{},name:"CometVideoHomePlaylistRootQuery",operationKind:"query",text:null}};e.exports=a}),null);
+__d("CometVideoHomePlaylistRoot.entrypoint",["CometVideoHomePlaylistRootQuery$Parameters","JSResourceForInteraction","WebPixelRatio","buildCometVideoHomeRoute.entrypoint"],(function(a,b,c,d,e,f,g){"use strict";a=c("buildCometVideoHomeRoute.entrypoint")(c("JSResourceForInteraction")("CometVideoHomePlaylistRoot.react").__setRef("CometVideoHomePlaylistRoot.entrypoint"),function(a){a={id:a.routeProps.id};return{queries:{playlistRootQueryReference:{parameters:b("CometVideoHomePlaylistRootQuery$Parameters"),variables:{scale:d("WebPixelRatio").get(),trigger_data:a}}}}});g["default"]=a}),98);

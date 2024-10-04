@@ -1,0 +1,244 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e4e8f6;
+    color: #333;
+}
+
+/* Header Section */
+header {
+    background: linear-gradient(90deg, #1f4068, #11998e);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+/* CSS for an image with specific width and height */
+.image {
+    width: 165px; /* Adjust the width as needed */
+    height: 200px; /* Adjust the height as needed */
+    object-fit: cover; /* Ensures the image covers the dimensions without distortion */
+    text-align: left;
+    
+  }
+  
+
+header h1 {
+    margin: 0;
+    font-size: 2.8rem;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 10px 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 30px;
+    transition: background 0.3s ease;
+}
+
+nav ul li a:hover {
+    background: #e43f5a;
+    color: white;
+}
+
+/* About Section */
+.about-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 40px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.about-container {
+    max-width: 70%;
+}
+
+.about-section h2 {
+    font-size: 2.5rem;
+    color: #1f4068;
+}
+
+.about-section p {
+    font-size: 1.2rem;
+    line-height: 1.7;
+    color: #666;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-bar input {
+    padding: 10px;
+    width: 250px;
+    border: 2px solid #1f4068;
+    border-radius: 20px 0 0 20px;
+    font-size: 1rem;
+    outline: none;
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    background-color: #1f4068;
+    color: white;
+    border: none;
+    border-radius: 0 20px 20px 0;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.search-bar button:hover {
+    background-color: #11998e;
+}
+
+/* Committee Table */
+.committee-section {
+    padding: 40px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    margin: 20px 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.committee-section h3 {
+    text-align: center;
+    font-size: 2rem;
+    color: #e43f5a;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+    font-size: 1rem;
+}
+
+table th {
+    background-color: #1f4068;
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Footer */
+footer {
+    background-color: #1f4068;
+    color: rgb(250, 248, 248);
+    padding: 20px 40px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact-info {
+    flex: 1;
+    color: #eadede;
+}
+
+.contact-info h4 {
+    font-size: 1.5rem;
+}
+
+.contact-info p {
+    font-size: 1rem;
+    color: #eadede;
+}
+
+.search-bar-footer {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.search-bar-footer input {
+    padding: 10px;
+    width: 200px;
+    border: none;
+    border-radius: 20px 0 0 20px;
+}
+
+.search-bar-footer button {
+    padding: 10px;
+    background-color: #e43f5a;
+    color: white;
+    border: none;
+    border-radius: 0 20px 20px 0;
+    cursor: pointer;
+}
+
+.search-bar-footer button:hover {
+    background-color: #11998e;
+}
+/* new add on about  */
+
+main {
+    padding: 20px;
+    max-width: 1100px;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h2 {
+    font-size: 1.8em;
+    color: #1C2D3F;
+    margin-bottom: 10px;
+    border-bottom: 3px solid #ff9f1c;
+    display: inline-block;
+}
+
+.message-section, .society-section, .history-section {
+    margin-bottom: 40px;
+    padding: 20px;
+    border-left: 5px solid #3A506B;
+    background-color: #fefefe;
+    border-radius: 5px;
+}
+
+.message-content, .society-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.message-content img, .society-content img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+p {
+    color: #090909;
+    font-size: 1.1em;
+}

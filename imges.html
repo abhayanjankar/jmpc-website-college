@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Photo Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        h1 {
+            background-color: #3404c4;
+            color: white;
+            padding: 15px 0;
+            margin-bottom: 30px;
+            font-size: 2em;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 0 10px;
+        }
+
+        .gallery-item {
+            border: 2px solid #ddd;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            width: 280px;
+            background-color: white;
+            border-radius: 8px;
+            overflow: hidden;
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+            .thumbnail:hover { transform: scale(1.05); cursor: pointer; }
+
+        }
+        .thumbnail:hover {
+             transform: scale(1.05); cursor: pointer; }
+
+
+        .gallery-item:hover {
+            transform: scale(1.05);
+            box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .caption {
+            padding: 15px;
+            background-color: #fff;
+            color: #333;
+        }
+
+        .caption h3 {
+            font-size: 1.2em;
+            margin: 0;
+        }
+
+        .caption p {
+            font-size: 1em;
+            margin: 5px 0;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>College Photo Gallery</h1>
+
+    <div class="gallery"  >
+    <div class="gallery-item">
+        <img  src="new photos update/principal photos update.png" alt="Principal">
+        <div class="caption">
+            <h3> DR Vikash Dhomne <br>Principal</h3>
+        </div>
+    </div>
+
+    <div class="gallery">
+        <div class="gallery-item">
+            <img src="Achievment.photos/Awarded by faculty.jpg" alt="Awards for Faculty">
+            <div class="caption">
+                <h3>Awards for Faculty</h3>
+            </div>
+        </div>
+
+        <div class="gallery-item">
+            <img src="Achievment.photos/College award for university Topper.jpg" alt="College Award for University Topper">
+            <div class="caption">
+                <h3>College Award for University Topper</h3>
+            </div>
+        </div>
+
+        <div class="gallery-item">
+            <img src="Achievment.photos/Conference.jpg" alt="Conference">
+            <div class="caption">
+                <h3>Conference</h3>
+            </div>
+        </div>
+
+        <div class="gallery-item">
+            <img src="Achievment.photos/Cultural Activity- Mr.Raja Pandit.jpg" alt="Cultural Activity - Mr. Raja Pandit">
+            <div class="caption">
+                <h3>Cultural Activity - Mr. Raja Pandit</h3>
+            </div>
+        </div>
+
+        <div class="gallery-item">
+            <img src="Achievment.photos/Felicitation of Faculty.jpg" alt="Felicitation of Faculty">
+            <div class="caption">
+                <h3>Felicitation of Faculty</h3>
+            </div>
+        </div>
+
+        <div class="gallery-item">
+            <img src="Achievment.photos/Guest Lecture- Sudhir Kalambekar,CA.jpg" alt="Guest Lecture - Er. Apte">
+            <div class="caption">
+                <h3>Guest Lecture - Er. Apte</h3>
+            </div>
+        </div>
+
+        <div class="gallery-item">
+            <img src="Achievment.photos/Guest Lecture-Kiran Yadav, CA.jpg" alt="Guest Lecture - Sudhir Kalambekar, CA">
+            <div class="caption">
+                <h3>Guest Lecture - Sudhir Kalambekar, CA</h3>
+            </div>
+        </div>
+
+        <div class="gallery-item">
+            <img src="Achievment.photos/image 19.gif" alt="Guest Lecture - Kiran Yadav, CA">
+            <div class="caption">
+                <h3>Guest Lecture - Kiran Yadav, CA</h3>
+            </div>
+        </div>
+
+        <div class="gallery-item">
+            <img src="Achievment.photos/Industry Institute Interaction.jpg" alt="Industry Institute Interaction">
+            <div class="caption">
+                <h3>Industry Institute Interaction</h3>
+            </div>
+        </div>
+
+        <div class="gallery-item">
+            <img src="Achievment.photos/Placement Activity 1.jpg" alt="Placement Activity - Aptitude Test">
+            <div class="caption">
+                <h3>Placement Activity - Aptitude Test</h3>
+            </div>
+        </div>
+
+        <div class="gallery-item">
+            <img src="Achievment.photos/Placement Activity- Aptitude Test.jpg" alt="Placement Activity - Online Test">
+            <div class="caption">
+                <h3>Placement Activity - Online Test</h3>
+            </div>
+        </div>
+
+        <div class="gallery-item">
+            <img src="Achievment.photos/Placement Activity-M&M.jpg" alt="Placement Activity">
+            <div class="caption">
+                <h3>Placement Activity</h3>
+            </div>
+        </div>
+
+        <div class="gallery-item">
+            <img src="Achievment.photos/Placement Activity- online test.jpg" alt="Placement Activity - M&M">
+            <div class="caption">
+                <h3>Placement Activity - M&M</h3>
+            </div>
+        </div>
+
+        <div class="gallery-item">
+            <img src="Achievment.photos/Publication of Books.jpg" alt="Publication of Books">
+            <div class="caption">
+                <h3>Publication of Books</h3>
+            </div>
+        </div>
+
+        <div class="gallery-item">
+            <img src="Achievment.photos/Publication of Sovineor.jpg" alt="Publication of Souvenir">
+            <div class="caption">
+                <h3>Publication of Souvenir</h3>
+            </div>
+        </div>
+
+        <div class="gallery-item">
+            <img src="Achievment.photos/Sports.jpg" alt="Sports">
+            <div class="caption">
+                <h3>Sports</h3>
+            </div>
+        </div>
+
+        <div class="gallery-item">
+            <img src="Achievment.photos/State Level Conference.jpg" alt="State Level Conference">
+            <div class="caption">
+                <h3>State Level Conference</h3>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

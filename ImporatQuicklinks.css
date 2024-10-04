@@ -1,0 +1,78 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f6f7; /* Light background color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Quick Links Container */
+  .quick-links-container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for elevation */
+    padding: 20px 30px;
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  /* Title Styling */
+  .quick-links-title {
+    font-size: 18px;
+    color: #007bff; /* Blue color for the heading */
+    font-weight: 600;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #00bcd4; /* Aqua underline for title */
+    padding-bottom: 5px;
+  }
+  
+  /* Quick Links List */
+  .quick-links-list {
+    list-style: none;
+  }
+  
+  .quick-links-list li {
+    margin-bottom: 10px;
+  }
+  
+  .quick-links-list li a {
+    text-decoration: none;
+    font-size: 15px;
+    color: #34495e; /* Deep gray for link text */
+    padding: 8px 0;
+    display: block;
+    border-bottom: 1px solid #e1e1e1; /* Separator for each link */
+    transition: color 0.3s, background-color 0.3s;
+  }
+  
+  .quick-links-list li a:hover {
+    color: #007bff; /* Change text color on hover */
+    background-color: #f1f9ff; /* Light blue hover effect */
+    padding-left: 5px; /* Add slight left indent on hover */
+    border-radius: 5px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .quick-links-container {
+      padding: 15px 20px;
+      max-width: 100%;
+    }
+  
+    .quick-links-title {
+      font-size: 16px;
+    }
+  
+    .quick-links-list li a {
+      font-size: 14px;
+    }
+  }
+  

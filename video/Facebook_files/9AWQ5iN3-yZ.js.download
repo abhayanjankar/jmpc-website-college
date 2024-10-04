@@ -1,0 +1,5 @@
+;/*FB_PKG_DELIM*/
+
+__d("MWChatStateV2Types",[],(function(a,b,c,d,e,f){"use strict";a="UpsertTab";b="UpdateState";c="UpdateTab";d="UpdateTabByThreadKey";e={UpdateState:b,UpdateTab:c,UpdateTabByThreadKey:d,UpsertTab:a};b="ChatTab";c="ComposeTab";d={ChatTab:b,ComposeTab:c};a=new Map();b={focusedTabId:void 0,mediaViewerOpenWatermark:-1,nextTabId:0,tabs:a};f.MWChatStateActionsType=e;f.MWChatStateTabType=d;f.emptyMWChatState=b}),66);
+__d("MWChatStateContext",["MWChatStateV2Types","react"],(function(a,b,c,d,e,f,g){"use strict";var h;b=h||d("react");c=b.createContext;var i=b.useContext,j=c(d("MWChatStateV2Types").emptyMWChatState);e=j.Provider;function a(a){var b=i(j);return a(b)}g.stateContext=j;g.ChatStateContextProvider=e;g.useChatState=a}),98);
+__d("MWChatStateV2IsClosed",[],(function(a,b,c,d,e,f){"use strict";function a(a){return a.closeWatermark>Math.max(a.openWatermark,a.minimizeWatermark,a.clientForcedMinimizeWatermark)}f.isClosed=a}),66);

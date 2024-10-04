@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Webpage</title>
+    <style>
+        /* Basic styling for the navbar and dropdown */
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .navbar {
+            display: flex;
+            background-color: #333;
+        }
+
+        .navbar a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        .navbar a:hover {
+            background-color: #575757;
+        }
+
+        /* Dropdown container */
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        /* Dropdown button */
+        .dropdown .dropbtn {
+            background-color: #333;
+            color: white;
+            padding: 14px 20px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .dropdown:hover .dropbtn {
+            background-color: #575757;
+        }
+
+        /* Dropdown content (hidden by default) */
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            min-width: 160px;
+            z-index: 1;
+        }
+
+        /* Links inside the dropdown */
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        /* Change color of dropdown links on hover */
+        .dropdown-content a:hover {
+            background-color: #f1f1f1;
+        }
+
+        /* Show the dropdown menu on hover */
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#admission">Admissions</a>
+        
+        <!-- Dropdown for Others section -->
+        <div class="dropdown">
+            <button class="dropbtn">Others</button>
+            <div class="dropdown-content">
+                <a href="#naac">NAAC</a>
+                <a href="#nirf">NIRF</a>
+                <a href="#vacancies">Vacancies</a>
+                <a href="#career-katta">Career-Katta</a>
+                <a href="#statutory-committees">Statutory Committees</a>
+            </div>
+        </div>
+
+        <a href="#contact">Contact</a>
+    </div>
+
+    <div style="padding: 16px;">
+        <h2>Welcome to the College Webpage</h2>
+        <p>Use the navigation bar to explore various sections of the website.</p>
+    </div>
+
+</body>
+</html>

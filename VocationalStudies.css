@@ -1,0 +1,110 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 1rem 0;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+/* Intro Section */
+.intro {
+    background-color: #e9ecef;
+    padding: 3rem 20px;
+    text-align: center;
+}
+
+.intro-content h2 {
+    font-size: 2rem;
+}
+
+.intro-content p {
+    font-size: 1.2rem;
+}
+
+/* Courses Section */
+.courses {
+    background-color: white;
+    padding: 3rem 20px;
+    text-align: center;
+}
+
+.course-list {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.course {
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    padding: 1.5rem;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+.course h3 {
+    font-size: 1.5rem;
+    color: #007bff;
+}
+
+/* Contact Section */
+.contact {
+    background-color: #343a40;
+    color: white;
+    padding: 3rem 20px;
+    text-align: center;
+}
+
+.contact p {
+    margin: 1rem 0;
+}
+
+/* Footer */
+footer {
+    background-color: #6c757d;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 0.9rem;
+}

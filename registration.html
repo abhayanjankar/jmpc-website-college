@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>College Registration Form</title>
+  <link rel="stylesheet" href="registration.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="form-container">
+    <div class="form-header">
+      <h2>College Registration</h2>
+      <p>Start your journey with us.</p>
+    </div>
+    
+    <form action="submit_form.php" method="post" class="registration-form">
+      <div class="form-group">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Enter your first name" required>
+      </div>
+
+      <div class="form-group">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Enter your last name" required>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+      </div>
+
+      <div class="form-group">
+        <label for="dob">Date of Birth</label>
+        <input type="date" id="dob" name="dob" required>
+      </div>
+
+      <div class="form-group">
+        <label for="course">Select Course</label>
+        <select id="course" name="course" required>
+          <option value="bsc">B.Sc</option>
+          <option value="bcom">B.Com</option>
+          <option value="btech">B.Tech</option>
+          <option value="mba">MBA</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="gender">Gender</label>
+        <div class="radio-group">
+          <input type="radio" id="male" name="gender" value="male" required> Male
+          <input type="radio" id="female" name="gender" value="female" required> Female
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="address">Address</label>
+        <textarea id="address" name="address" placeholder="Enter your address" required></textarea>
+      </div>
+
+      <div class="form-group">
+        <input type="submit" value="Register" class="submit-btn">
+      </div>
+    </form>
+  </div>
+
+</body>
+</html>

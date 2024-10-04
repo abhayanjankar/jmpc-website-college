@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery with Captions</title>
+    <style>
+        /* General body styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f5;
+        }
+        /* Container for gallery */
+        .gallery-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        /* Each image container */
+        .gallery-item {
+            width: 300px;
+            margin: 15px;
+            border: 2px solid #ddd;
+            border-radius: 10px;
+            background-color: #fff;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        /* Styling for images */
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            border-bottom: 1px solid #ddd;
+        }
+        /* Caption styling */
+        .caption {
+            padding: 10px;
+            font-size: 16px;
+            font-weight: bold;
+            color: #333;
+        }
+        /* Optional hover effect */
+        .gallery-item:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Gallery Section -->
+    <div class="gallery-container">
+        <div class="gallery-item">
+            <img src="new photos update/principal photos update.png" alt="Event 1">
+            <div class="caption">Event Name 1</div>
+        </div>
+        <div class="gallery-item">
+            <img src="image2.jpg" alt="Event 2">
+            <div class="caption">Event Name 2</div>
+        </div>
+        <div class="gallery-item">
+            <img src="image3.jpg" alt="Event 3">
+            <div class="caption">Event Name 3</div>
+        </div>
+        <div class="gallery-item">
+            <img src="image4.jpg" alt="Event 4">
+            <div class="caption">Event Name 4</div>
+        </div>
+        <div class="gallery-item">
+            <img src="image5.jpg" alt="Event 5">
+            <div class="caption">Event Name 5</div>
+        </div>
+        <div class="gallery-item">
+            <img src="image6.jpg" alt="Event 6">
+            <div class="caption">Event Name 6</div>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #3f51b5;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+.content {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+h2 {
+    font-size: 1.8rem;
+    color: #3f51b5;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #3f51b5;
+    padding-bottom: 5px;
+}
+
+.events p {
+    background-color: #e0f7fa;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+.faculty {
+    margin-top: 20px;
+}
+
+.faculty-member {
+    background-color: #ffecb3;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.collabs {
+    background-color: #fce4ec;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #3f51b5;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.contact {
+    font-size: 1rem;
+}
+
+.contact p {
+    margin-bottom: 5px;
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alumni Registration</title>
+    <link rel="stylesheet" href="Alumni.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Alumni Registration</h1>
+        </header>
+        <form>
+            <div class="form-group">
+                <label for="first-name">Full Name (Please write in Block Letters):</label>
+                <input type="text" id="first-name" placeholder="Enter First Name">
+                <input type="text" id="middle-name" placeholder="Enter Middle Name">
+                <input type="text" id="last-name" placeholder="Enter Last Name">
+            </div>
+
+            <div class="form-group">
+                <label for="dob">Date of Birth:</label>
+                <select id="dob-day">
+                    <option value="1">1</option>
+                    <!-- Add options for day -->
+                </select>
+                <select id="dob-month">
+                    <option value="1">MM</option>
+                    <!-- Add options for month -->
+                </select>
+                <select id="dob-year">
+                    <option value="2000">YYYY</option>
+                    <!-- Add options for year -->
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="address1">Present Address (for Communication):</label>
+                <input type="text" id="address1" placeholder="Address Line 1">
+                <input type="text" id="address2" placeholder="Address Line 2">
+            </div>
+
+            <div class="form-group">
+                <label for="city">City:</label>
+                <input type="text" id="city" placeholder="Enter City">
+                <label for="state">State:</label>
+                <input type="text" id="state" placeholder="Enter State">
+                <label for="country">Country:</label>
+                <input type="text" id="country" placeholder="Enter Country">
+            </div>
+
+            <div class="form-group">
+                <label for="pin-code">Pin Code / Zip Code:</label>
+                <input type="text" id="pin-code" placeholder="Enter Pin Code">
+                <label for="email">Email ID:</label>
+                <input type="email" id="email" placeholder="Enter Email">
+                <label for="mobile">Mobile No.:</label>
+                <input type="tel" id="mobile" placeholder="Enter Mobile Number">
+            </div>
+
+            <div class="form-group">
+                <label for="course">Course:</label>
+                <select id="course">
+                    <option value="select">Select Course</option>
+                    <!-- Add course options -->
+                </select>
+                <label for="passout-year">Passout Year:</label>
+                <select id="passout-year">
+                    <option value="year">YYYY</option>
+                    <!-- Add year options -->
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="status">Present Status:</label>
+                <select id="status">
+                    <option value="select-status">Select Status</option>
+                    <!-- Add status options -->
+                </select>
+                <label for="organization">Name of Organization / Firm:</label>
+                <input type="text" id="organization" placeholder="Enter Organization Name">
+            </div>
+
+            <div class="form-group">
+                <label for="higher-education">Course and Name of Institution to be filled by STUDENT - HIGHER EDUCATION only:</label>
+                <input type="text" id="higher-education" placeholder="Only for STUDENT - HIGHER EDUCATION">
+                <label for="institution-name">Name of Institution:</label>
+                <input type="text" id="institution-name" placeholder="Only for STUDENT - HIGHER EDUCATION">
+            </div>
+
+            <div class="form-group">
+                <label for="city-town">City / Town:</label>
+                <input type="text" id="city-town" placeholder="Enter CITY / TOWN">
+                <label for="designation">Designation:</label>
+                <input type="text" id="designation" placeholder="Enter Designation">
+            </div>
+
+            <button type="submit" class="register-btn">Register</button>
+        </form>
+    </div>
+</body>
+</html>
